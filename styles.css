@@ -30,7 +30,6 @@
 .cardBoxSedans button {
     color: hsl(31, 77%, 52%);
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 .cardBoxSedans button:hover {
@@ -66,7 +65,6 @@
 .cardBoxLuxury button {
     color: hsl(179, 100%, 13%);
     font-weight: bold;
-    margin-bottom: 0;
 }
 
 .cardBoxLuxury button:hover {
@@ -99,6 +97,7 @@ button {
     padding: 16px 32px;
     margin: 2px 0;
     max-width: 140px;
+    transition: color 0.3s ease;
 }
 
 h2 {
