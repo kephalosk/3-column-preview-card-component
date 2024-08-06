@@ -25,6 +25,11 @@
                 max-width: 920px;
                 min-height: 500px;
                 width: 100%;
+
+                @media (max-width: 450px) {
+                    grid-template-columns: 1fr;
+                    margin: 66px 0;
+                }
             }
 
             .cardBoxSedans {
@@ -43,7 +48,7 @@
                 border: 2px solid hsl(0, 0%, 95%);
                 color: hsl(0, 0%, 95%);
                 font-weight: bold;
-                margin-bottom: 0;
+                margin: 0;
             }
 
             .cardBoxSUV {
@@ -60,7 +65,7 @@
                 border: 2px solid hsl(0, 0%, 95%);
                 color: hsl(0, 0%, 95%);
                 font-weight: bold;
-                margin-bottom: 0;
+                margin: 0;
             }
 
             .cardBoxLuxury {
@@ -79,6 +84,7 @@
                 border: 2px solid hsl(0, 0%, 95%);
                 color: hsl(0, 0%, 95%);
                 font-weight: bold;
+                margin: 0;
             }
 
             body {
@@ -101,7 +107,7 @@
                 flex-direction: column;
                 font-family: "Big Shoulders Display",sans-serif;
                 padding: 16px 32px;
-                margin-bottom: 2px;
+                margin: 2px 0;
                 max-width: 140px;
             }
 
@@ -109,6 +115,10 @@
                 color: hsl(0, 0%, 95%);
                 font-family: "Lexend Deca",sans-serif;
                 text-transform: uppercase;
+
+                @media (max-width: 450px) {
+                    margin: 30px 0;
+                }
             }
 
             p {
@@ -116,12 +126,20 @@
                 font-size: 14px;
                 letter-spacing: 1.2px;
                 line-height: 175%;
+
+                @media (max-width: 450px) {
+                    margin-bottom: 24px;
+                }
             }
 
             section {
                 display: grid;
                 grid-template-rows: auto;
                 padding: 3.2vw;
+
+                @media (max-width: 450px) {
+                    padding: 48px;
+                }
             }
         </style>
     </head>
