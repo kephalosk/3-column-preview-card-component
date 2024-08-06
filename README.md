@@ -122,6 +122,21 @@ I learned to reverse the item order in grids and to use @media within a block
     order: 2;
   }
 }
+
+.cardBox {
+   border-radius: 10px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 146px 0 106px 0;
+   max-width: 920px;
+   min-height: 500px;
+   width: 100%;
+
+   @media (max-width: 450px) {
+     grid-template-columns: 1fr;
+     margin: 66px 0;
+   }
+ }
 ```
 
 ### Continued development
